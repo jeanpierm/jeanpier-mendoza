@@ -64,36 +64,37 @@ export const experiences: ExperienceIntf[] = [
 
 export const projects: Project[] = [
   {
-    title: 'PPG Platform',
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia id
-    sed nostrum similique distinctio, necessitatibus ex mollitia quo
-    molestias amet corporis maxime debitis ipsam! Doloribus similique
-    architecto illum assumenda voluptatibus?`,
-    image: '/images/project-1.jpg',
-    technologies: 'Java',
-    repositoryUrl: 'https://github.com/jeanpierm',
-    websiteUrl: 'https://github.com/jeanpierm',
+    title: 'Spring Boot microservice',
+    description: `A RESTful API microservice example.`,
+    image: '/images/projects/spring-jpa.png',
+    technologies:
+      'Java, Spring Boot, JPA (MySQL), Spring Security, JWT, Docker, Linux, OpenAPI Swagger.',
+    repositoryUrl: 'https://github.com/jeanpierm/rest-api-spring-jpa',
+    websiteUrl: 'https://github.com/jeanpierm/rest-api-spring-jpa',
   },
   {
-    title: 'Project 1',
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia id
-    sed nostrum similique distinctio, necessitatibus ex mollitia quo
-    molestias amet corporis maxime debitis ipsam! Doloribus similique
-    architecto illum assumenda voluptatibus?`,
-    image: '/images/project-1.jpg',
-    repositoryUrl: 'https://github.com/jeanpierm',
-    technologies: 'Java',
-    websiteUrl: 'https://github.com/jeanpierm',
+    title: 'Quarkus.io microservice',
+    description: `A RESTful API microservice example.`,
+    image: '/images/projects/quarkus.jpg',
+    technologies: 'Java, Quarkus.io, JPA (PostgreSQL), Docker, Linux.',
+    repositoryUrl: 'https://github.com/jeanpierm/rest-api-quarkus-postgresql',
+    websiteUrl: 'https://github.com/jeanpierm/rest-api-quarkus-postgresql',
   },
   {
-    title: 'Project 0',
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia id
-    sed nostrum similique distinctio, necessitatibus ex mollitia quo
-    molestias amet corporis maxime debitis ipsam! Doloribus similique
-    architecto illum assumenda voluptatibus?`,
-    image: '/images/project-1.jpg',
-    repositoryUrl: 'https://github.com/jeanpierm',
-    technologies: 'Java',
-    websiteUrl: 'https://github.com/jeanpierm',
+    title: 'NestJS RESTful API',
+    description: `A RESTful API example.`,
+    image: '/images/projects/nestjs-mongo.png',
+    repositoryUrl: 'https://github.com/jeanpierm/rest-api-nestjs-mongo',
+    technologies:
+      'TypeScript, NestJS, Mongoose (MongoDB), JWT, Docker, Linux, OpenAPI Swagger.',
+    websiteUrl: 'https://github.com/jeanpierm/rest-api-nestjs-mongo',
+  },
+  {
+    title: 'Angular Auth App',
+    description: `An app that allows authentication and registration, as well as maintenance operations (CRUD) of users.`,
+    image: '/images/projects/angular-auth-app.png',
+    repositoryUrl: 'https://github.com/jeanpierm/auth-app',
+    technologies: 'Angular, PrimeNG.',
+    websiteUrl: 'https://github.com/jeanpierm/auth-app',
   },
 ];

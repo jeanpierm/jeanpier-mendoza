@@ -1,10 +1,10 @@
 import { experiences } from '../core/data/home.data';
-import SectionTitle from './section-title';
+import SectionTitle from './SectionTitle';
 
 const Experience = () => {
   return (
     <section className="home-section" id="experience" data-section="experience">
-      <div className="container">
+      <div className="container center">
         <SectionTitle title="Experience" />
         {experiences.map(
           ({ jobTitle, period, company, technologies, description }) => (

@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Project } from '../core/interfaces/project.interface';
-import DemoIcon from './demo-icon';
-import GithubIcon from './github-icon';
+import DemoIcon from './icons/DemoIcon';
+import GithubIcon from './icons/GithubIcon';
 
 export interface ProjectCardProps extends Project {}
 
@@ -19,9 +19,9 @@ const ProjectCard = ({
       <h3 className="">{title}</h3>
       <Image
         src={image}
-        height="200px"
-        width="448px"
-        objectFit="contain"
+        height="250"
+        width="400"
+        objectFit="cover"
         alt={title}
       ></Image>
       <p
@@ -64,7 +64,13 @@ const ProjectCard = ({
           text-align: end;
         }
         .action {
-          margin-left: 0.6rem;
+          margin-left: 1.4rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+          article {
+            border-color: white;
+          }
         }
       `}</style>
     </article>

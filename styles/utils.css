@@ -13,12 +13,12 @@
   margin-right: auto;
   margin-left: auto;
 }
-
+/*
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 
 @media (min-width: 576px) {
   .container-sm,
@@ -155,4 +155,10 @@
 
 .light-text {
   color: #666;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

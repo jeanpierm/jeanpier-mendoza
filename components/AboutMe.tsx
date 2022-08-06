@@ -1,9 +1,9 @@
-import SectionTitle from './section-title';
+import SectionTitle from './SectionTitle';
 
 const AboutMe = () => {
   return (
     <section className="home-section" id="about-me">
-      <div className="container">
+      <div className="container center">
         <SectionTitle title="About me" />
         <p>My name is Jeanpier Mendoza, I live in Guayaquil, Ecuador.</p>
         <p>My hobbies:</p>
@@ -15,13 +15,7 @@ const AboutMe = () => {
         </ul>
       </div>
 
-      <style jsx>{`
-        .container {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
-      `}</style>
+      <style jsx>{``}</style>
     </section>
   );
 };

@@ -1,11 +1,11 @@
 import { projects } from '../core/data/home.data';
-import ProjectCard from './project-card';
-import SectionTitle from './section-title';
+import ProjectCard from './ProjectCard';
+import SectionTitle from './SectionTitle';
 
 const Projects = () => {
   return (
     <section className="home-section" id="projects">
-      <div className="container">
+      <div className="container center">
         <SectionTitle title="Open Source Projects" />
         <div className="grid">
           {projects.map((p, i) => (

@@ -1,15 +1,15 @@
 import Link from 'next/link';
 import { contact } from '../core/data/home.data';
-import GithubIcon from './github-icon';
-import LinkedInIcon from './linkedin-icon';
-import MailIcon from './mail-icon';
-import SectionTitle from './section-title';
-import StackOverFlowIcon from './StackOverFlowIcon';
+import GithubIcon from './icons/GithubIcon';
+import LinkedInIcon from './icons/LinkedInIcon';
+import MailIcon from './icons/MailIcon';
+import SectionTitle from './SectionTitle';
+import StackOverFlowIcon from './icons/StackOverFlowIcon';
 
 const Contact = () => {
   return (
     <section className="home-section" id="contact">
-      <div className="container">
+      <div className="container center">
         <SectionTitle title="Contact" />
         <div>
           <span className="contact">
@@ -22,7 +22,7 @@ const Contact = () => {
           <span className="contact">
             <Link href={contact.linkedIn}>
               <a target="_blank">
-                <LinkedInIcon />
+                <LinkedInIcon alt={1} />
               </a>
             </Link>
           </span>

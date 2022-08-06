@@ -1,16 +1,16 @@
 import { SkillType } from '../core/enums/skill-type.enum';
 import { skills } from '../core/data/home.data';
-import SectionTitle from './section-title';
+import SectionTitle from './SectionTitle';
 
 const Skills = () => {
   return (
     <section className="home-section" id="skills">
-      <div className="container">
+      <div className="container center">
         <SectionTitle title="Skills" />
         <div className="grid">
           {Object.values(SkillType).map((type) => (
             <article key={type}>
-              <h3 className="display-7">{type}</h3>
+              <h3 className="display-7 text-center">{type}</h3>
               <ul>
                 {skills[type].map((skill) => (
                   <div key={skill.name}>

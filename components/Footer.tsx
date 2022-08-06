@@ -29,7 +29,7 @@ const Footer = () => {
 
         @media (prefers-color-scheme: dark) {
           .footer {
-            border-color: #222;
+            border-color: #414141;
           }
         }
       `}</style>

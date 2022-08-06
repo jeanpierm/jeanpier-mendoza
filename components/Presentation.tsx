@@ -55,6 +55,15 @@ const Presentation = () => {
           a:hover {
             border-color: var(--primary);
           }
+
+          @media (prefers-color-scheme: dark) {
+            a {
+              border-color: white;
+            }
+            a:hover {
+              border-color: var(--primary-dark);
+            }
+          }
         `}</style>
       </section>
     </>

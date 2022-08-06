@@ -1,9 +1,13 @@
 :root {
   --bg-body: #fff;
+  --bg-body-dark: rgb(36, 36, 36);
   --bg-header: #fff;
+  --bg-header-dark: rgb(36, 36, 36);
   --color-header: #000;
+  --color-header-dark: #fff;
 
   --primary: #70370e;
+  --primary-dark: #e4ba77;
   --accent: #fff3e4;
 }
 
@@ -28,14 +32,8 @@ a {
   text-decoration: none;
 }
 
-a:hover,
-a:focus,
-a:active {
+a:hover {
   color: var(--primary);
-}
-
-a svg:hover {
-  fill: var(--primary);
 }
 
 * {
@@ -56,12 +54,25 @@ a svg:hover {
   padding-bottom: 4rem;
 }
 
+svg:hover {
+  fill: var(--primary);
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
   body {
     color: white;
-    background: rgb(32, 33, 45);
+    background: var(--bg-body-dark);
+  }
+  svg {
+    fill: white;
+  }
+  svg:hover {
+    fill: var(--primary-dark);
+  }
+  a:hover {
+    color: var(--primary-dark);
   }
 }
