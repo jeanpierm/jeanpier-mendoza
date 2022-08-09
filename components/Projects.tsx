@@ -1,4 +1,4 @@
-import { projects } from '../core/data/home.data';
+import { projects } from '../core/data/projects.data';
 import ProjectCard from './ProjectCard';
 import SectionTitle from './SectionTitle';
 
@@ -17,7 +17,7 @@ const Projects = () => {
       <style jsx>{`
         .grid {
           display: flex;
-          justify-content: space-around;
+          justify-content: center;
           flex-wrap: wrap;
         }
       `}</style>

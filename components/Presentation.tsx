@@ -5,11 +5,11 @@ const Presentation = () => {
     <>
       <section className="main">
         <div className="container">
-          <h1 className="title display-1">Hi! I&apos;m Jeanpier</h1>
+          <h1 className="title display-1">Hi! I&apos;m Jeanpier Mendoza</h1>
 
           <div className="description">
-            <p>I enjoy creating software, mainly the web.</p>
-            <p>Excited to learn new things and to improve as a person.</p>
+            <p>I enjoy creating software</p>
+            <p>Excited to learn new things and to improve as a person</p>
             <br />
             <a href="/resume.pdf" target="_blank">
               Resume

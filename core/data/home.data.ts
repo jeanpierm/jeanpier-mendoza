@@ -1,6 +1,5 @@
 import { SkillType } from '../enums/skill-type.enum';
 import { ExperienceIntf } from '../interfaces/experience.interface';
-import { Project } from '../interfaces/project.interface';
 import { Skill } from '../interfaces/skill.interface';
 
 export const contact = {
@@ -59,42 +58,5 @@ export const experiences: ExperienceIntf[] = [
       Java, JavaScript, HTML5, CSS3, Spring
       Boot, REST, JPA, MySQL, CouchDB, Vue.js (Quasar Framework), JWT,
       OpenAPI Swagger, Wildfly, Git, Bitbucket.`,
-  },
-];
-
-export const projects: Project[] = [
-  {
-    title: 'Spring Boot microservice',
-    description: `A RESTful API microservice example.`,
-    image: '/images/projects/spring-jpa.png',
-    technologies:
-      'Java, Spring Boot, JPA (MySQL), Spring Security, JWT, Docker, Linux, OpenAPI Swagger.',
-    repositoryUrl: 'https://github.com/jeanpierm/rest-api-spring-jpa',
-    websiteUrl: 'https://github.com/jeanpierm/rest-api-spring-jpa',
-  },
-  {
-    title: 'Quarkus.io microservice',
-    description: `A RESTful API microservice example.`,
-    image: '/images/projects/quarkus.jpg',
-    technologies: 'Java, Quarkus.io, JPA (PostgreSQL), Docker, Linux.',
-    repositoryUrl: 'https://github.com/jeanpierm/rest-api-quarkus-postgresql',
-    websiteUrl: 'https://github.com/jeanpierm/rest-api-quarkus-postgresql',
-  },
-  {
-    title: 'NestJS RESTful API',
-    description: `A RESTful API example.`,
-    image: '/images/projects/nestjs-mongo.png',
-    repositoryUrl: 'https://github.com/jeanpierm/rest-api-nestjs-mongo',
-    technologies:
-      'TypeScript, NestJS, Mongoose (MongoDB), JWT, Docker, Linux, OpenAPI Swagger.',
-    websiteUrl: 'https://github.com/jeanpierm/rest-api-nestjs-mongo',
-  },
-  {
-    title: 'Angular Auth App',
-    description: `An app that allows authentication and registration, as well as maintenance operations (CRUD) of users.`,
-    image: '/images/projects/angular-auth-app.png',
-    repositoryUrl: 'https://github.com/jeanpierm/auth-app',
-    technologies: 'Angular, PrimeNG.',
-    websiteUrl: 'https://github.com/jeanpierm/auth-app',
   },
 ];
