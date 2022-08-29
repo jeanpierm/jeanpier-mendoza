@@ -12,11 +12,8 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <Head>
-        <title>Jeanpier Mendoza - Website & Portfolio</title>
-        <meta
-          name="description"
-          content="Web Site & Portfolio of Jeanpier Mendoza"
-        />
+        <title>Jeanpier Mendoza Website</title>
+        <meta name="description" content="Jeanpier Mendoza Website" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"

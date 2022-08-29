@@ -36,7 +36,10 @@ const AboutMe = () => {
           <ul>
             <li>Training powerlifting</li>
             <li>Watch science or history documentaries</li>
-            <li>Listen to rancheras</li>
+            <li>
+              Listen to rancheras (Pedro Infante and Vicente Fernandez are my
+              favorites!)
+            </li>
             <li>Play videogames</li>
           </ul>
         </div>

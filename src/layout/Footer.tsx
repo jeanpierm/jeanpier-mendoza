@@ -3,7 +3,7 @@ import Image from 'next/image';
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>Jeanpier Mendoza - Website & Portfolio</p>
+      <p>Jeanpier Mendoza Website</p>
       <p>
         Made in Ecuador{' '}
         <Image

@@ -5,7 +5,7 @@ const icons = {
   spring: { value: 'logos:spring-icon' },
   jwt: { value: 'logos:jwt-icon' },
   mysql: { value: 'logos:mysql-icon' },
-  react: { value: 'logos:react' },
+  reactjs: { value: 'logos:react' },
   typescript: { value: 'logos:typescript-icon' },
   mui: { value: 'logos:material-ui' },
   redux: { value: 'logos:redux' },
@@ -27,6 +27,8 @@ const icons = {
   puppeteer: { value: 'logos:puppeteer' },
   springboot: { value: 'simple-icons:springboot', style: { color: '#6DB33F' } },
   tool: { value: 'icon-park:tool' },
+  nextjs: { value: 'logos:nextjs-icon' },
+  vercel: { value: 'logos:vercel-icon' },
 };
 
 export const projects: Project[] = [
@@ -44,7 +46,7 @@ export const projects: Project[] = [
       },
       { name: 'Spring Security/JWT', icon: icons.jwt },
       { name: 'Spring Data JPA/MySQL', icon: icons.mysql },
-      { name: 'ReactJS', icon: icons.react },
+      { name: 'ReactJS', icon: icons.reactjs },
       { name: 'TypeScript', icon: icons.typescript },
       { name: 'Material UI (MUI)', icon: icons.mui },
       { name: 'Redux Toolkit (RTK) & RTK Query', icon: icons.redux },
@@ -171,6 +173,18 @@ export const projects: Project[] = [
     ],
     repositoryUrls: [
       'https://github.com/jeanpierm/rest-api-quarkusio-postgresql',
+    ],
+  },
+  {
+    title: 'My website',
+    description: `My simple website to introduce myself`,
+    image: '/images/projects/website2.png',
+    technologies: [
+      { name: 'TypeScript', icon: icons.typescript },
+      { name: 'ReactJS', icon: icons.reactjs },
+      { name: 'Next.js', icon: icons.nextjs },
+      { name: 'Linux', icon: icons.linux },
+      { name: 'Vercel', icon: icons.vercel },
     ],
   },
 ];
