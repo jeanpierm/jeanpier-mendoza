@@ -1,4 +1,4 @@
-import { Project, TechnologyIcon } from '../interfaces/project.interface';
+import { Project } from '../interfaces/project.interface';
 
 const icons = {
   java: { value: 'logos:java' },
@@ -29,6 +29,7 @@ const icons = {
   tool: { value: 'icon-park:tool' },
   nextjs: { value: 'logos:nextjs-icon' },
   vercel: { value: 'logos:vercel-icon' },
+  junit5: { value: 'simple-icons:junit5' },
 };
 
 export const projects: Project[] = [
@@ -121,11 +122,29 @@ export const projects: Project[] = [
       { name: 'Node.js/NestJS', icon: icons.nestjs },
       { name: 'JWT', icon: icons.jwt },
       { name: 'Mongoose/MongoDB', icon: icons.mongodb },
-      { name: 'Jest (unit test)', icon: icons.jest },
-      { name: 'Supertest (e2e test)', icon: icons.test },
+      { name: 'Jest', icon: icons.jest },
+      { name: 'Supertest', icon: icons.test },
       { name: 'OpenAPI/Swagger', icon: icons.swagger },
       { name: 'Docker', icon: icons.docker },
       { name: 'Linux', icon: icons.linux },
+    ],
+  },
+  {
+    title: 'Monitors RESTful API (Quarkus.io)',
+    description: `An example of RESTful API microservice for monitors.`,
+    image: '/images/projects/quarkus.png',
+    technologies: [
+      { name: 'Java', icon: icons.java },
+      { name: 'Quarkus.io', icon: icons.quarkus },
+      { name: 'Hibernate Panache/PostgreSQL', icon: icons.postgresql },
+      { name: 'JUnit5', icon: icons.junit5 },
+      { name: 'REST Assured', icon: icons.tool },
+      { name: 'OpenAPI/Swagger', icon: icons.swagger },
+      { name: 'Docker', icon: icons.docker },
+      { name: 'Linux', icon: icons.linux },
+    ],
+    repositoryUrls: [
+      'https://github.com/jeanpierm/rest-api-quarkusio-postgresql',
     ],
   },
   {
@@ -158,21 +177,6 @@ export const projects: Project[] = [
       { name: 'Mongoose/MongoDB', icon: icons.mongodb },
       { name: 'Docker', icon: icons.docker },
       { name: 'Linux', icon: icons.linux },
-    ],
-  },
-  {
-    title: 'Monitors RESTful API (Quarkus.io)',
-    description: `An example of RESTful API microservice for monitors.`,
-    image: '/images/projects/quarkus.jpg',
-    technologies: [
-      { name: 'Java', icon: icons.java },
-      { name: 'Quarkus.io', icon: icons.quarkus },
-      { name: 'Spring Data JPA/PostgreSQL', icon: icons.postgresql },
-      { name: 'Docker', icon: icons.docker },
-      { name: 'Linux', icon: icons.linux },
-    ],
-    repositoryUrls: [
-      'https://github.com/jeanpierm/rest-api-quarkusio-postgresql',
     ],
   },
   {
