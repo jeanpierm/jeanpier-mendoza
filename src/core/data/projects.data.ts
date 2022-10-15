@@ -147,6 +147,7 @@ export const projects: Project[] = [
       'https://github.com/jeanpierm/rest-api-quarkusio-postgresql',
     ],
   },
+
   {
     title: 'Warframes RESTful API (Spring Boot)',
     description:
