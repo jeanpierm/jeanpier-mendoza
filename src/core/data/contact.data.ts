@@ -1,5 +1,5 @@
 export const contact = {
-  email: 'jeanpi3rm@gmail.com',
+  email: 'jeanpiermendoza@outlook.com',
   github: 'https://github.com/jeanpierm',
   gitlab: 'https://gitlab.com/jeanpierm',
   stackOverFlow:
