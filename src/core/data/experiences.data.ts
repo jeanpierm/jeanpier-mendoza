@@ -4,7 +4,7 @@ export const experiences: ExperienceIntf[] = [
   {
     jobTitle: 'SSR. Software Developer',
     company: { name: 'Gizlo · Full-time', website: 'https://gizlocorp.com/' },
-    period: 'Sep 2022 - present · 5 mos',
+    period: 'Sep 2022 - present',
     description:
       'Migration of Corporate Credit Card web services for a financial institution, oriented towards a microservices architecture, improving the scalability, maintainability and future projection of the product.<br/>Development of user interface to facilitate the configuration of the internal component of the telecommunications company.',
     technologies: `Gitlab · OpenShift · AWS Lambda · Amazon Web Services (AWS) · Spring Boot · Java · Docker · RESTful WebServices · Quarkus · React · TypeScript`,
