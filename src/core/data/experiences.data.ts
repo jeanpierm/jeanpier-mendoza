@@ -10,7 +10,7 @@ export const experiences: ExperienceIntf[] = [
     technologies: `Gitlab · OpenShift · AWS Lambda · Amazon Web Services (AWS) · Spring Boot · Java · Docker · RESTful WebServices · Quarkus · React · TypeScript`,
   },
   {
-    jobTitle: 'JR. Software Developer',
+    jobTitle: 'Software Developer',
     company: { name: 'Gizlo · Full-time', website: 'https://gizlocorp.com/' },
     period: 'Dec 2021 - May 2022 · 6 mos',
     description:
