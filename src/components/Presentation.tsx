@@ -9,7 +9,7 @@ const Presentation = () => {
             <p>I like to build software</p>
             <p>Excited to learn more</p>
             <br />
-            <a href="https://drive.google.com/file/d/1_oaX0IO8iPwJ_rR1qXzykFWrL8VYRz9y/view?usp=sharing" target="_blank" rel="noreferrer">
+            <a href="https://drive.google.com/drive/folders/1uVflLZOAY2Iq1TjbRkxbjgshn0LGJNve?usp=sharing" target="_blank" rel="noreferrer">
               Resume
             </a>
           </div>
